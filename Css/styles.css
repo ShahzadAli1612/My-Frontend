@@ -1,0 +1,1275 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav .navBarDesktop {
+  width: 100vw;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+nav .navBarDesktop .logoImageBox {
+  width: 28vw;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #181818;
+}
+nav .navBarDesktop .logoImageBox img {
+  margin-left: 6vw;
+}
+nav .navBarDesktop .navElementsContainerWithLogin {
+  width: 72vw;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #3e3e3e;
+}
+nav .navBarDesktop .navElementsContainerWithLogin .OnlyUlElements {
+  display: flex;
+  width: 55vw;
+  height: 90%;
+  align-items: center;
+  justify-content: center;
+}
+nav .navBarDesktop .navElementsContainerWithLogin .OnlyUlElements ul {
+  width: 50vw;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+}
+nav .navBarDesktop .navElementsContainerWithLogin .OnlyUlElements ul li button {
+  width: 8vw;
+  height: 33px;
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+nav .navBarDesktop .navElementsContainerWithLogin .OnlyUlElements ul li button:hover {
+  cursor: pointer;
+  background-color: black;
+  border-radius: 5px;
+}
+nav .navBarDesktop .navElementsContainerWithLogin .loginBtn {
+  width: 10vw;
+  display: flex;
+  justify-content: end;
+  margin-right: 6vw;
+}
+nav .navBarDesktop .navElementsContainerWithLogin .loginBtn button {
+  width: 8vw;
+  height: 33px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  background-color: #FF5524;
+  border-radius: 5px;
+}
+nav .navBarDesktop .navElementsContainerWithLogin .loginBtn button:hover {
+  cursor: pointer;
+}
+
+section {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+section .firstPage {
+  width: 100vw;
+  height: 88vh;
+  display: flex;
+}
+section .firstPage .leftSection {
+  width: 28vw;
+  height: 100%;
+  background-color: #232323;
+}
+section .firstPage .leftSection #leftSectionContentPage1 {
+  width: 100%;
+  height: 100%;
+}
+section .firstPage .leftSection #leftSectionContentPage1 .tagLineBox {
+  margin-top: 1in;
+  margin-left: 1in;
+  margin-bottom: 10px;
+  width: 40vw;
+  z-index: 5;
+}
+section .firstPage .leftSection #leftSectionContentPage1 .tagLineBox h1 {
+  font-size: 3vw;
+  font-weight: bolder;
+  color: white;
+}
+section .firstPage .leftSection #leftSectionContentPage1 .tagLineBox h1 span {
+  color: #FF5524;
+}
+section .firstPage .leftSection #leftSectionContentPage1 .explainTagBox {
+  margin-left: 1in;
+  width: 40vw;
+}
+section .firstPage .leftSection #leftSectionContentPage1 .explainTagBox p {
+  color: white;
+  font-size: medium;
+}
+section .firstPage .leftSection #leftSectionContentPage1 .JoinMeBox {
+  margin-left: 0.8in;
+  margin-top: 12vh;
+  position: relative;
+  width: 30vw;
+  display: flex;
+  justify-content: space-around;
+}
+section .firstPage .leftSection #leftSectionContentPage1 .JoinMeBox button {
+  width: 40%;
+  height: 40px;
+  color: white;
+  font-weight: bold;
+}
+section .firstPage .leftSection #leftSectionContentPage1 .JoinMeBox button:hover {
+  cursor: pointer;
+}
+section .firstPage .leftSection #leftSectionContentPage1 .JoinMeBox #signUpBtn {
+  background-color: #FF5524;
+  border: 1px solid #FF5524;
+  border-radius: 5px;
+}
+section .firstPage .leftSection #leftSectionContentPage1 .JoinMeBox #learnMoreBtn {
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+section .firstPage .rightSection {
+  width: 72vw;
+  height: 100%;
+  background-color: #7b7b7b;
+  z-index: -1;
+}
+section .secondPage {
+  width: 100vw;
+  background-color: #232323;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section .secondPage .contentContainer {
+  width: 100vw;
+  height: 100vh;
+  background-color: #232323;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .secondPage .contentContainer .flex_Container {
+  width: 70vw;
+  height: 60%;
+  padding: 1vw;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section .secondPage .contentContainer .flex_Container .leftBox {
+  width: 35vw;
+  height: 98%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+section .secondPage .contentContainer .flex_Container .leftBox .headingType h1 {
+  padding-left: 3vw;
+  padding-top: 3vh;
+  font-size: 3vw;
+  font-weight: bold;
+  color: white;
+  background-color: transparent;
+  border-left: 9px solid #FF5524;
+}
+section .secondPage .contentContainer .flex_Container .leftBox .headingType h1 span {
+  color: #FF5524;
+}
+section .secondPage .contentContainer .flex_Container .leftBox .headingType p {
+  width: 60%;
+  font-size: smaller;
+  color: white;
+}
+section .secondPage .contentContainer .flex_Container .leftBox .explainationText {
+  margin-top: 2vh;
+}
+section .secondPage .contentContainer .flex_Container .leftBox .explainationText p {
+  color: white;
+  width: 79%;
+}
+section .secondPage .contentContainer .flex_Container .leftBox .seeMoreBtn button {
+  width: 8vw;
+  height: 5vh;
+  color: white;
+  font-weight: bold;
+  background-color: #FF5524;
+  border: 1px solid #FF5524;
+  border-radius: 5px;
+  margin-top: 5vh;
+}
+section .secondPage .contentContainer .flex_Container .leftBox .seeMoreBtn button:hover {
+  cursor: pointer;
+  background-color: #f6845e;
+}
+section .secondPage .contentContainer .flex_Container .middleBox {
+  width: 18vw;
+  height: 98%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-right: 1vw;
+}
+section .secondPage .contentContainer .flex_Container .middleBox .imageWithRatingBox {
+  width: 98%;
+  height: 95%;
+  background-color: #7b7b7b;
+  border-radius: 5px;
+}
+section .secondPage .contentContainer .flex_Container .middleBox .imageWithRatingBox .ratingBox {
+  display: flex;
+  width: 60%;
+  background-color: white;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-top: 12vh;
+  margin-left: -4vw;
+}
+section .secondPage .contentContainer .flex_Container .middleBox .imageWithRatingBox .ratingBox img {
+  width: 1.5vw;
+  height: 2vh;
+}
+section .secondPage .contentContainer .flex_Container .rightBox {
+  width: 15vw;
+  height: 98%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+section .secondPage .contentContainer .flex_Container .rightBox .upperBox {
+  width: 100%;
+  height: auto;
+  background-color: #7b7b7b;
+  border-radius: 5px;
+}
+section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox {
+  color: #FF5524;
+  background-color: white;
+  margin-left: 5vw;
+  margin-top: 22vh;
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+}
+section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .circleImage {
+  display: flex;
+  align-items: center;
+  width: 40%;
+}
+section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .circleImage img {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+}
+section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .circleImage .circle2 {
+  margin-left: -1.7vw;
+}
+section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .circleImage .circle3 {
+  margin-left: -1.7vw;
+}
+section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .circleImage .circle4 {
+  margin-left: -1.7vw;
+}
+section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .rating {
+  display: flex;
+  flex-direction: column;
+}
+section .secondPage .contentContainer .flex_Container .rightBox .lowerBox {
+  width: 100%;
+  height: 38%;
+  background-color: #FF5524;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section .secondPage .contentContainer .flex_Container .rightBox .lowerBox div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section .servicesSection {
+  width: 100vw;
+  height: 100vh;
+  background-color: #232323;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .servicesSection .contentBox3 {
+  width: 70vw;
+  height: 90vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+section .servicesSection .contentBox3 .headingPage3 {
+  width: fit-content;
+  height: fit-content;
+  padding: 2vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-bottom: 3px solid #FF5524;
+}
+section .servicesSection .contentBox3 .headingPage3 h1 {
+  width: 90vh;
+  height: auto;
+  text-align: center;
+}
+section .servicesSection .contentBox3 .headingPage3 h1 span {
+  color: #FF5524;
+}
+section .servicesSection .contentBox3 .headingPage3 p {
+  width: 95%;
+  text-align: center;
+}
+section .servicesSection .contentBox3 .servicesContainer {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4vh;
+}
+section .servicesSection .contentBox3 .servicesContainer .ourServices {
+  height: 98%;
+  width: 28%;
+  border: 1px solid white;
+  color: white;
+  padding: 3vh 1.5vw 3vh 1.5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+section .servicesSection .contentBox3 .servicesContainer .ourServices div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section .servicesSection .contentBox3 .servicesContainer .ourServices div h2 {
+  margin-bottom: 1.5vh;
+}
+section .servicesSection .contentBox3 .servicesContainer .ourServices p {
+  text-align: center;
+}
+section .servicesSection .contentBox3 .servicesContainer .ourServices img {
+  width: 4vw;
+  height: 8vh;
+}
+section .servicesSection .contentBox3 .SeeMoreButton3 button {
+  width: 8vw;
+  height: 5vh;
+  color: white;
+  font-weight: bold;
+  background-color: #FF5524;
+  border: 1px solid #FF5524;
+  border-radius: 5px;
+  margin-top: 5vh;
+}
+section .servicesSection .contentBox3 .SeeMoreButton3 button:hover {
+  cursor: pointer;
+  background-color: #f6845e;
+}
+section .Pricing_Section {
+  width: 100vw;
+  height: 100vh;
+  background-color: #232323;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section .Pricing_Section .ContentBox4 {
+  width: 70vw;
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+section .Pricing_Section .ContentBox4 .headingBox4 {
+  width: fit-content;
+  height: fit-content;
+  padding: 1vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid #FF5524;
+  color: white;
+}
+section .Pricing_Section .ContentBox4 .headingBox4 h1 span {
+  color: #FF5524;
+}
+section .Pricing_Section .ContentBox4 .PricingContainerBox {
+  width: 95%;
+  height: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section .Pricing_Section .ContentBox4 .PricingContainerBox #premiumPricingBox {
+  width: 30%;
+  height: 100%;
+  background-color: #232323;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #FF5524;
+}
+section .Pricing_Section .ContentBox4 .PricingContainerBox #premiumPricingBox h3 {
+  color: #000000;
+}
+section .Pricing_Section .ContentBox4 .PricingContainerBox #premiumPricingBox .priceValue {
+  color: rgb(255, 255, 255);
+}
+section .Pricing_Section .ContentBox4 .PricingContainerBox #premiumPricingBox .priceValue strong {
+  font-size: x-large;
+}
+section .Pricing_Section .ContentBox4 .PricingContainerBox #premiumPricingBox #preminumMostPopularBtn {
+  background-color: transparent;
+  border-radius: 25px;
+  border: 1px solid white;
+}
+section .Pricing_Section .ContentBox4 .PricingContainerBox #premiumPricingBox #preminumBookServiceBtn {
+  background-color: white;
+  color: #000000;
+  margin-top: 0;
+}
+section .Pricing_Section .ContentBox4 .PricingContainerBox #premiumPricingBox .paraBelowBtn {
+  width: 85%;
+}
+section .Pricing_Section .ContentBox4 .PricingContainerBox .pricingBox {
+  width: 30%;
+  height: 85%;
+  background-color: #232323;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border: 1px solid white;
+}
+section .Pricing_Section .ContentBox4 .PricingContainerBox .pricingBox h3 {
+  margin-bottom: 1vh;
+}
+section .Pricing_Section .ContentBox4 .PricingContainerBox .pricingBox .priceValue {
+  color: #FF5524;
+}
+section .Pricing_Section .ContentBox4 .PricingContainerBox .pricingBox .priceValue strong {
+  font-size: x-large;
+}
+section .Pricing_Section .ContentBox4 .PricingContainerBox .pricingBox button {
+  margin-top: 2vh;
+  margin-bottom: 4vh;
+  color: white;
+  font-weight: bold;
+  background-color: #FF5524;
+  padding: 1vw 1.5vw 1vw 1.5vw;
+  border: 1px solid #FF5524;
+  border-radius: 5px;
+}
+section .Pricing_Section .ContentBox4 .PricingContainerBox .pricingBox .paraBelowBtn {
+  width: 70%;
+  text-align: center;
+}
+section .Pricing_Section .ContentBox4 .PricingContainerBox .pricingBox .BasicorPlusBox {
+  display: flex;
+  color: white;
+  height: 12vh;
+}
+section .Pricing_Section .ContentBox4 .PricingContainerBox .pricingBox .BasicorPlusBox button {
+  background-color: #FF5524;
+  border-radius: 25px;
+  padding-bottom: 1vh;
+  font-size: smaller;
+  width: 7.5vw;
+  height: 7.5vh;
+}
+section .Pricing_Section .ContentBox4 .PricingContainerBox .pricingBox .BasicorPlusBox .monthlyPlusBtn {
+  background-color: transparent;
+  border: 1px solid white;
+  margin-left: -1.8vw;
+}
+section .customers_Section {
+  width: 100vw;
+  height: 100vh;
+  background-color: #232323;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .customers_Section .customerContentBox {
+  width: 100%;
+  height: 50%;
+  margin-left: 8vw;
+  display: flex;
+  align-items: center;
+}
+section .customers_Section .customerContentBox .customerPageDetails {
+  width: 35%;
+  height: 98%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+section .customers_Section .customerContentBox .customerPageDetails .headingPara {
+  color: white;
+  padding: 3vh 0 3vh 2.5vw;
+  border-left: 9px solid #FF5524;
+}
+section .customers_Section .customerContentBox .customerPageDetails .headingPara span {
+  color: #FF5524;
+}
+section .customers_Section .customerContentBox .customerPageDetails .headingPara p {
+  width: 78%;
+  margin-top: 10px;
+}
+section .customers_Section .customerContentBox .customerPageDetails .scrollArrows {
+  width: 77%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section .customers_Section .customerContentBox .customerPageDetails .scrollArrows img {
+  width: 3.5vw;
+  height: 6vh;
+}
+section .customers_Section .customerContentBox .customerPageDetails .dotsImagesContainer {
+  width: 80%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .customers_Section .customerContentBox .customerPageDetails .dotsImagesContainer img {
+  margin-right: 0.5vw;
+}
+section .customers_Section .customerContentBox .customerCardsContainer {
+  width: 75vw;
+  height: auto;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: -10vw;
+  color: white;
+}
+section .customers_Section .customerContentBox .customerCardsContainer .customerCard {
+  width: 30%;
+  height: auto;
+  border: 1px solid white;
+  border-top: 3vh solid #FF5524;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+section .customers_Section .customerContentBox .customerCardsContainer .customerCard .customerName {
+  color: #FF5524;
+  margin-bottom: 3px;
+}
+section .customers_Section .customerContentBox .customerCardsContainer .customerCard img {
+  margin-bottom: 5px;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+}
+section .customers_Section .customerContentBox .customerCardsContainer .customerCard p {
+  margin-top: 3px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+section .contactSection {
+  width: 100vw;
+  height: 100vh;
+  background-color: #232323;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+section .contactSection .contactContentContainer {
+  width: 80%;
+  height: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+section .contactSection .contactContentContainer .contactFormContainer {
+  width: 55%;
+  height: 90%;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+section .contactSection .contactContentContainer .contactFormContainer .contactHeading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+section .contactSection .contactContentContainer .contactFormContainer .contactHeading h2 span {
+  color: #FF5524;
+}
+section .contactSection .contactContentContainer .contactFormContainer div {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+section .contactSection .contactContentContainer .contactFormContainer div input {
+  background-color: transparent;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 5px;
+  width: 45%;
+  color: white;
+}
+section .contactSection .contactContentContainer .contactFormContainer div input::placeholder {
+  color: white;
+}
+section .contactSection .contactContentContainer .contactFormContainer div textarea {
+  width: 100%;
+  height: 20vh;
+  background-color: transparent;
+  color: white;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 5px;
+}
+section .contactSection .contactContentContainer .contactFormContainer div textarea::placeholder {
+  color: white;
+}
+section .contactSection .contactContentContainer .contactFormContainer div button {
+  font-weight: bolder;
+  padding: 1.5vh 2vw 1.5vh 2vw;
+  color: white;
+  background-color: #FF5524;
+  border: 1px solid #FF5524;
+  border-radius: 5px;
+}
+section .contactSection .contactContentContainer .mediaLinksContainer {
+  width: 40%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+section .contactSection .contactContentContainer .mediaLinksContainer .punchLineBox {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  padding: 3vh 2.5vw 3vh 0;
+  border-right: 9px solid #FF5524;
+}
+section .contactSection .contactContentContainer .mediaLinksContainer .punchLineBox h1 span {
+  color: #FF5524;
+}
+section .contactSection .contactContentContainer .mediaLinksContainer .socailLinks {
+  height: 10vh;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer {
+  width: 100vw;
+  height: 100vh;
+  background-color: #FF5524;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .contentArea {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer .contentArea .ourTitle {
+  width: 100%;
+  height: 12vh;
+  padding: 1.5vw;
+}
+footer .contentArea .ourTitle h1 span {
+  color: white;
+}
+footer .contentArea .summaryContainer {
+  height: 65vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+footer .contentArea .summaryContainer .quickLinks {
+  width: 25%;
+  height: 98%;
+}
+footer .contentArea .summaryContainer .quickLinks ul {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style: none;
+  color: white;
+}
+footer .contentArea .summaryContainer .quickLinks ul h2 {
+  color: black;
+}
+footer .contentArea .summaryContainer .termsCondition {
+  width: 25%;
+  height: 54%;
+}
+footer .contentArea .summaryContainer .termsCondition ul {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style: none;
+  color: white;
+}
+footer .contentArea .summaryContainer .termsCondition ul h2 {
+  color: black;
+}
+footer .contentArea .summaryContainer .ourContactAddress {
+  width: 40%;
+  height: 54%;
+}
+footer .contentArea .summaryContainer .ourContactAddress ul {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style: none;
+  color: white;
+}
+footer .contentArea .summaryContainer .ourContactAddress ul h2 {
+  color: black;
+}
+footer .contentArea .summaryContainer .ourContactAddress ul li div {
+  display: flex;
+}
+footer .contentArea .summaryContainer .ourContactAddress ul li div img {
+  width: 2vw;
+  height: 3vh;
+  margin-right: 5px;
+}
+footer .contentArea .copyRightBox {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  #navDesktopView, #contactMediaLinks, #custScrollArrows, #custScrollDots, #DesktopCustHeadingOrangePart, #priceSectionHeadingParaDesktop, #serviceSectionHeadingOrangeDesktop, #explainationTextSecondPageDesktop, #page2SeeMoreBtnDesktop, #page2MiddleBoxDesktop {
+    display: none;
+  }
+  nav .navBarMobile {
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav .navBarMobile ul {
+    height: 12vh;
+    width: 90%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  nav .navBarMobile ul li h1 {
+    color: #FF5524;
+  }
+  nav .navBarMobile ul li h1 span {
+    color: #ffffff;
+  }
+  nav .navBarMobile ul li button {
+    width: 80px;
+    height: 30px;
+    background-color: #FF5524;
+    border: 1px solid #FF5524;
+    border-radius: 5px;
+    color: white;
+  }
+  section .firstPage {
+    flex-direction: column;
+    height: max-content;
+  }
+  section .firstPage .leftSection, section .firstPage .rightSection {
+    width: 100vw;
+  }
+  section .firstPage .leftSection {
+    background-color: #7b7b7b;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: center;
+    height: 70vh;
+  }
+  section .firstPage .leftSection #leftSectionContentPage1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -48vh;
+  }
+  section .firstPage .leftSection #leftSectionContentPage1 .tagLineBox {
+    width: 80%;
+    margin-left: 0;
+  }
+  section .firstPage .leftSection #leftSectionContentPage1 .tagLineBox h1 {
+    font-size: x-large;
+    text-align: center;
+  }
+  section .firstPage .leftSection #leftSectionContentPage1 .explainTagBox {
+    margin-left: 0;
+    width: 68%;
+  }
+  section .firstPage .leftSection #leftSectionContentPage1 .explainTagBox p {
+    text-align: center;
+  }
+  section .firstPage .leftSection #leftSectionContentPage1 .JoinMeBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 0;
+    align-items: center;
+  }
+  section .firstPage .leftSection #leftSectionContentPage1 .JoinMeBox button {
+    width: 150px;
+    height: 40px;
+  }
+  section .firstPage .leftSection #leftSectionContentPage1 .JoinMeBox #learnMoreBtn {
+    margin-top: 20px;
+  }
+  section .firstPage .rightSection {
+    background-color: #232323;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  }
+  section .firstPage .rightSection #blankBox {
+    width: 80%;
+    height: 90%;
+    background-color: transparent;
+    margin-bottom: 1in;
+  }
+  section .secondPage {
+    height: max-content;
+  }
+  section .secondPage .contentContainer {
+    margin: 0.7in 0 0.7in 0;
+    height: max-content;
+  }
+  section .secondPage .contentContainer .flex_Container {
+    flex-direction: column;
+  }
+  section .secondPage .contentContainer .flex_Container .leftBox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  section .secondPage .contentContainer .flex_Container .leftBox .headingType {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  section .secondPage .contentContainer .flex_Container .leftBox .headingType h1 {
+    border: none;
+    font-size: larger;
+    text-align: center;
+    width: 70%;
+    margin-bottom: 10px;
+  }
+  section .secondPage .contentContainer .flex_Container .leftBox .headingType p {
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox {
+    width: 100%;
+    height: 100vh;
+    margin-top: 5px;
+    align-items: center;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox {
+    width: 90%;
+    height: 100%;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingStarsBox {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 10%;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: -30px;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingStarsBox h4 {
+    font-size: larger;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox {
+    width: 75%;
+    margin-top: 2.4in;
+    margin-left: 1n;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .circleImage {
+    width: 50%;
+    justify-content: center;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .circleImage img {
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .circleImage .circle2 {
+    margin-left: -15px;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .circleImage .circle3 {
+    margin-left: -15px;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .circleImage .circle4 {
+    margin-left: -15px;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .lowerBox {
+    margin-top: 10px;
+    width: 80%;
+  }
+  section .secondPage .contentContainer .flex_Container #btn_ExplainText_Mobile {
+    margin-top: 10px;
+    width: 100%;
+  }
+  section .secondPage .contentContainer .flex_Container #btn_ExplainText_Mobile div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  section .secondPage .contentContainer .flex_Container #btn_ExplainText_Mobile div p {
+    color: white;
+    text-align: center;
+  }
+  section .secondPage .contentContainer .flex_Container #btn_ExplainText_Mobile div button {
+    margin-top: 20px;
+    padding: 10px 30px 10px 30px;
+    background-color: #FF5524;
+    border: 1px solid #FF5524;
+    border-radius: 5px;
+    color: white;
+  }
+  section .servicesSection {
+    height: max-content;
+  }
+  section .servicesSection .contentBox3 {
+    width: 90%;
+    height: max-content;
+    margin: 0.7in 0 0.7in 0;
+  }
+  section .servicesSection .contentBox3 .headingPage3 {
+    border: none;
+  }
+  section .servicesSection .contentBox3 .headingPage3 p {
+    text-align: center;
+    width: 70%;
+  }
+  section .servicesSection .contentBox3 .servicesContainer {
+    flex-direction: column;
+    margin-top: 0.3in;
+  }
+  section .servicesSection .contentBox3 .servicesContainer .ourServices {
+    width: 65%;
+    height: 40vh;
+    margin-bottom: 30px;
+  }
+  section .servicesSection .contentBox3 .servicesContainer .ourServices img {
+    width: 50px;
+    height: 50px;
+  }
+  section .servicesSection .contentBox3 .SeeMoreButton3 {
+    width: 30%;
+  }
+  section .servicesSection .contentBox3 .SeeMoreButton3 button {
+    width: 100%;
+  }
+  section .Pricing_Section {
+    height: max-content;
+  }
+  section .Pricing_Section .ContentBox4 {
+    margin: 0.7in 0 0.7in 0;
+    height: max-content;
+    width: 90%;
+  }
+  section .Pricing_Section .ContentBox4 .headingBox4 {
+    border: none;
+  }
+  section .Pricing_Section .ContentBox4 .headingBox4 p {
+    margin-top: 5px;
+    text-align: center;
+    width: 80%;
+  }
+  section .Pricing_Section .ContentBox4 .PricingContainerBox {
+    height: max-content;
+    margin-top: 0.5in;
+    flex-direction: column;
+  }
+  section .Pricing_Section .ContentBox4 .PricingContainerBox .pricingBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 55vh;
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 0.3in;
+  }
+  section .Pricing_Section .ContentBox4 .PricingContainerBox #premiumPricingBox {
+    width: 70%;
+    height: 55vh;
+  }
+  section .Pricing_Section .ContentBox4 .PricingContainerBox #monthlyPackages div {
+    display: flex;
+    justify-content: center;
+  }
+  section .Pricing_Section .ContentBox4 .PricingContainerBox #monthlyPackages div button {
+    width: 40%;
+  }
+  section .customers_Section {
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section .customers_Section .customerContentBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0.7in 0 0.7in 0;
+    width: 90%;
+  }
+  section .customers_Section .customerContentBox .customerPageDetails {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section .customers_Section .customerContentBox .customerPageDetails .headingPara {
+    width: 100%;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  section .customers_Section .customerContentBox .customerPageDetails .headingPara p {
+    text-align: center;
+  }
+  section .customers_Section .customerContentBox .customerCardsContainer {
+    flex-direction: column;
+    border: none;
+    margin: 0.5in 0 0.5in 0;
+  }
+  section .customers_Section .customerContentBox .customerCardsContainer .customerCard {
+    width: 75%;
+    margin-bottom: 30px;
+  }
+  section .customers_Section .customerContentBox #customerCardsScrollArrows_dots_MobileView {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  section .customers_Section .customerContentBox #customerCardsScrollArrows_dots_MobileView .scrollArrows {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.3in;
+  }
+  section .customers_Section .customerContentBox #customerCardsScrollArrows_dots_MobileView .scrollArrows img {
+    width: 50px;
+    height: 50px;
+  }
+  section .customers_Section .customerContentBox #customerCardsScrollArrows_dots_MobileView .dotsImagesContainer img {
+    margin-right: 7px;
+    width: 10px;
+    height: 10px;
+  }
+  section .contactSection {
+    background-color: #232323;
+    height: max-content;
+  }
+  section .contactSection .mediaLinksContainerMobile {
+    margin-top: 0.7in;
+    margin-bottom: 10px;
+    color: white;
+    text-align: center;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  section .contactSection .mediaLinksContainerMobile .punchLineBox h1 {
+    margin-bottom: 5px;
+  }
+  section .contactSection .mediaLinksContainerMobile .punchLineBox h1 span {
+    color: #FF5524;
+  }
+  section .contactSection .mediaLinksContainerMobile .socailLinks {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+  }
+  section .contactSection .contactContentContainer {
+    height: 90vh;
+    margin-bottom: 0.7in;
+  }
+  section .contactSection .contactContentContainer .contactFormContainer {
+    width: 100%;
+  }
+  section .contactSection .contactContentContainer .contactFormContainer div {
+    flex-direction: column;
+  }
+  section .contactSection .contactContentContainer .contactFormContainer div input {
+    width: 100%;
+  }
+  section .contactSection .contactContentContainer .contactFormContainer .nameBox {
+    height: 15vh;
+  }
+  section .contactSection .contactContentContainer .contactFormContainer .contactBox {
+    height: 15vh;
+  }
+  footer {
+    height: max-content;
+  }
+  footer .contentArea {
+    height: max-content;
+  }
+  footer .contentArea .ourTitle {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .contentArea .summaryContainer {
+    flex-direction: column;
+    height: max-content;
+  }
+  footer .contentArea .summaryContainer .quickLinks {
+    width: 100%;
+    height: 70vh;
+  }
+  footer .contentArea .summaryContainer .quickLinks ul {
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  footer .contentArea .summaryContainer .termsCondition {
+    margin-top: 5vh;
+    width: 100%;
+    height: 45vh;
+  }
+  footer .contentArea .summaryContainer .termsCondition ul {
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  footer .contentArea .summaryContainer .ourContactAddress {
+    margin-top: 5vh;
+    width: 100%;
+    height: 45vh;
+  }
+  footer .contentArea .summaryContainer .ourContactAddress ul {
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  footer .contentArea .summaryContainer .ourContactAddress ul li div {
+    display: flex;
+    align-items: center;
+  }
+  footer .contentArea .summaryContainer .ourContactAddress ul li div p {
+    font-size: small;
+  }
+  footer .contentArea .summaryContainer .ourContactAddress ul li div img {
+    width: 15px;
+    height: 15px;
+  }
+  footer .contentArea .copyRightBox {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .contentArea .copyRightBox img {
+    width: 80%;
+    height: fit-content;
+  }
+}
+@media (min-width: 768px) {
+  .mediaLinksContainerMobile, .navBarMobile {
+    display: none;
+  }
+  #customerCardsScrollArrows_dots_MobileView, #ratingStarsBoxMobile, #MobileCustHeadingOrangePart, #priceSectionHeadingParaMobile, #serviceSectionHeadingOrangeMobile, #serviceHeadSecParaMobile, #btn_ExplainText_Mobile {
+    display: none;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox {
+    margin-left: 5vw;
+    width: 23vw;
+  }
+}
+@media (max-width: 425px) {
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox {
+    margin-left: 20vw;
+    width: 55vw;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
