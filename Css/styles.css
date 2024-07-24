@@ -259,16 +259,15 @@ section .secondPage .contentContainer .flex_Container .rightBox {
 }
 section .secondPage .contentContainer .flex_Container .rightBox .upperBox {
   width: 100%;
-  height: auto;
+  height: 60%;
   background-color: #7b7b7b;
   border-radius: 5px;
 }
 section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox {
   color: #FF5524;
-  background-color: white;
-  margin-left: 5vw;
-  margin-top: 22vh;
-  width: 100%;
+  margin-left: 4vw;
+  margin-top: 20vh;
+  width: 15vw;
   border-radius: 5px;
   padding: 5px;
   display: flex;
@@ -277,6 +276,7 @@ section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratin
   display: flex;
   align-items: center;
   width: 40%;
+  margin-right: 20px;
 }
 section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .circleImage img {
   width: 35px;
@@ -284,13 +284,13 @@ section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratin
   border-radius: 100%;
 }
 section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .circleImage .circle2 {
-  margin-left: -1.7vw;
+  margin-left: -1.3vw;
 }
 section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .circleImage .circle3 {
-  margin-left: -1.7vw;
+  margin-left: -1.3vw;
 }
 section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .circleImage .circle4 {
-  margin-left: -1.7vw;
+  margin-left: -1.3vw;
 }
 section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .rating {
   display: flex;
@@ -1253,7 +1253,7 @@ footer .contentArea .copyRightBox {
     height: fit-content;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .mediaLinksContainerMobile, .navBarMobile {
     display: none;
   }
@@ -1262,13 +1262,175 @@ footer .contentArea .copyRightBox {
   }
   section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox {
     margin-left: 5vw;
-    width: 23vw;
+    width: 16vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 1440px) {
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox {
+    margin-left: 5vw;
+    width: 25vw;
+    padding: 10px;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .circleImage img {
+    width: 40px;
+    height: 40px;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .rating h1 {
+    font-size: larger;
+  }
+}
+@media (max-width: 1085px) {
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox {
+    margin-left: 5vw;
+    width: 25vw;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .circleImage {
+    margin-right: 0;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .circleImage .circle2 {
+    margin-left: -1.5vh;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .circleImage .circle3 {
+    margin-left: -1.5vh;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .circleImage .circle3 {
+    margin-left: -1.5vh;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .rating {
+    margin-left: 0;
+  }
+}
+@media (max-width: 900px) {
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox {
+    margin-left: 5vw;
+    width: 20vw;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .circleImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .circleImage .circle2 {
+    margin-left: -1.5vh;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .circleImage .circle3 {
+    margin-left: -1.5vh;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .circleImage .circle3 {
+    margin-left: -1.5vh;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .rating {
+    margin-left: 0;
+  }
+}
+@media (max-width: 768px) {
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox {
+    margin-left: 35vw;
+    margin-top: 40vh;
+    background-color: white;
+    width: 35vw;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .circleImage {
+    margin-bottom: 10px;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .circleImage img {
+    width: 45px;
+    height: 45px;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .circleImage .circle2 {
+    margin-left: -1.2vh;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .circleImage .circle3 {
+    margin-left: -1.2vh;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .circleImage .circle3 {
+    margin-left: -1.2vh;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .rating {
+    margin-left: 0;
   }
 }
 @media (max-width: 425px) {
   section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox {
-    margin-left: 20vw;
+    margin-left: 22vw;
+    margin-top: 40vh;
+    background-color: white;
     width: 55vw;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .circleImage {
+    margin-bottom: 0;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .circleImage img {
+    width: 30px;
+    height: 30px;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .circleImage .circle2 {
+    margin-left: -1.5vh;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .circleImage .circle3 {
+    margin-left: -1.5vh;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .circleImage .circle3 {
+    margin-left: -1.5vh;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .rating {
+    margin-left: 0;
+  }
+}
+@media (max-width: 320px) {
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox {
+    margin-left: 18vw;
+    margin-top: 40vh;
+    background-color: white;
+    width: 60vw;
+    padding: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .circleImage {
+    margin-bottom: 0;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .circleImage img {
+    width: 30px;
+    height: 30px;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .circleImage .circle2 {
+    margin-left: -1.8vh;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .circleImage .circle3 {
+    margin-left: -1.8vh;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .circleImage .circle3 {
+    margin-left: -1.8vh;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .rating {
+    margin-left: 0;
   }
 }
 
