@@ -149,12 +149,24 @@ section{
                         background-color: #FF5524;
                         border: 1px solid #FF5524;
                         border-radius: 5px;
+                        &:hover{
+                            max-width: 100%;
+                            max-height: 100%;
+                            box-shadow: 5px 5px 3px white;
+                            cursor: pointer;
+                        }
         
                     }
                     #learnMoreBtn{
                         background-color: transparent;
                         border: 2px solid white;
                         border-radius: 5px;
+                        &:hover{
+                            max-width: 100%;
+                            max-height: 100%;
+                            box-shadow: 5px 5px 3px white;
+                            cursor: pointer;
+                        }
                     }
                 }
             }
@@ -167,6 +179,22 @@ section{
             height: 100%;
             background-color: #7b7b7b;
             z-index: -1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            #blankBox{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                height: 100%;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                };
+
+            }
         }
     }
 
@@ -258,11 +286,23 @@ section{
                     justify-content: center;
                     align-items:flex-start;
                     margin-right: 1vw;
+
+
                     .imageWithRatingBox{
                         width: 98%;
                         height: 95%;
                         background-color: #7b7b7b;
                         border-radius: 5px;
+                
+                        background-image: url('/Images/966bd1d1-7cb5-4507-ae54-ddcad231b9bf.jfif');
+                        background-size: cover;
+                        &:hover{
+                            max-width: 100%;
+                            max-height: 100%;
+                            box-shadow: 5px 5px 3px white;
+                            cursor: pointer;
+                        }
+                        
                         .ratingBox{
                             display: flex;
                             width: 60%;
@@ -293,6 +333,14 @@ section{
                         height: 60%;
                         background-color: #7b7b7b;
                         border-radius: 5px;
+                        background-image: url('/Images/Choosing\ a\ Fusible.jfif');
+                        background-size: cover;
+                        &:hover{
+                            max-width: 100%;
+                            max-height: 100%;
+                            box-shadow: 5px 5px 3px white;
+                            cursor: pointer;
+                        }
                         .ratingBox{
                             color: #FF5524;
                             margin-left: 4vw;
@@ -338,17 +386,38 @@ section{
                     .lowerBox{
                         width: 100%;
                         height: 38%;
-                        background-color: #FF5524;
+                        background-color: #ffffff;
                         border-radius: 5px;
                         color: white;
                         display: flex;
                         align-items: center;
                         justify-content: center;
+
+                        img{
+
+                            width: 98%;
+                            height: 98%;
+                            object-fit: cover;
+                            border-radius: 5px;
+                            &:hover{
+                                max-width: 100%;
+                                max-height: 100%;
+                                box-shadow: 5px 5px 3px white;
+                                cursor: pointer;
+                            }
+                            
+                        }
+                        
+
                         div{
                             display: flex;
                             flex-direction: column;
                             justify-content: center;
                             align-items: center;
+                            h2,h4{
+                                margin-left: -15vw;
+                                text-align: center;
+                            }
                         }
                     }
                 }
@@ -907,6 +976,12 @@ footer{
         display: none;
     }
 
+    #blankBox{
+        img{
+            display: none;
+        }
+    }
+
     nav{
         .navBarMobile{
             background-color: #000000;
@@ -954,6 +1029,8 @@ footer{
 
             .leftSection{
                 background-color: #7b7b7b;
+                background-image: url('/Images/macho_Mobile.jpg');
+                background-size: cover;
                 display: flex;
                 justify-content: end;
                 flex-direction: column;
@@ -1116,7 +1193,7 @@ footer{
                     }
 
                     #btn_ExplainText_Mobile{
-                        margin-top: 10px;
+                        margin-top: 0.5in;
                         width: 100%;
                         div{
                             display: flex;
@@ -1469,7 +1546,7 @@ footer{
                         .upperBox{
                             .ratingBox{
                                 margin-left: 5vw;
-                                width: 25vw;
+                                width: 23vw;
                                 padding: 10px;
                                 .circleImage{
                                     img{
@@ -1504,7 +1581,7 @@ footer{
                         .upperBox{
                             .ratingBox{
                                 margin-left: 5vw;
-                                width: 25vw;
+                                width: 23vw;
                                 padding: 5px;
                                 display: flex;
                                 justify-content: space-between;
@@ -1537,6 +1614,57 @@ footer{
 }
 
 
+@media (max-width:1024px)
+{
+    section{
+        .secondPage{
+            .contentContainer{
+                .flex_Container{
+                    .rightBox{
+                        .upperBox{
+                            .ratingBox{
+                                margin-left: 5vw;
+                                width: 24vw;
+                                padding: 5px;
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: space-between;
+                                align-items: center;
+                                .circleImage{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    margin-right: 0;
+                                    margin-bottom: 5px;
+                                    img{
+                                        width: 28px;
+                                        height: 28px;
+                                    };
+                                    .circle2{
+                                        margin-left: -1.8vh;
+                                    }
+
+                                    .circle3{
+                                        margin-left: -1.8vh;
+                                    }
+
+                                    .circle3{
+                                        margin-left: -1.8vh;
+                                    }
+                                }
+                                .rating{
+                                    margin-left: 0;
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media (max-width:900px)
 {
     section{
@@ -1547,6 +1675,7 @@ footer{
                         .upperBox{
                             .ratingBox{
                                 margin-left: 5vw;
+                                margin-top: 15vh;
                                 width: 20vw;
                                 padding: 5px;
                                 display: flex;
@@ -1573,6 +1702,8 @@ footer{
                                 }
                                 .rating{
                                     margin-left: 0;
+                                    justify-content: center;
+                                    align-items: center;
                                 }
                             }
                         }
@@ -1595,9 +1726,9 @@ footer{
                         .upperBox{
                             .ratingBox{
                                 margin-left: 35vw;
-                                margin-top: 40vh;
+                                margin-top: 25vh;
                                 background-color: white;
-                                width: 35vw;
+                                width: 40vw;
                                 padding: 5px;
                                 display: flex;
                                 justify-content: space-between;
@@ -1622,6 +1753,17 @@ footer{
                                 }
                                 .rating{
                                     margin-left: 0;
+                                    justify-content: center;
+                                    align-items: center;
+                                }
+                            }
+                        }
+
+                        .lowerBox{
+                            margin-left: 0;
+                            div{
+                                h2,h4{
+                                    margin-left: -50vw
                                 }
                             }
                         }
@@ -1674,6 +1816,17 @@ footer{
                                 }
                                 .rating{
                                     margin-left: 0;
+                                    justify-content: center;
+                                    align-items: start;
+                                }
+                            }
+                        }
+
+                        .lowerBox{
+                            margin-left: 0;
+                            div{
+                                h2,h4{
+                                    margin-left: -50vw
                                 }
                             }
                         }
@@ -1695,7 +1848,7 @@ footer{
                     .rightBox{
                         .upperBox{
                             .ratingBox{
-                                margin-left: 18vw;
+                                margin-left: 16vw;
                                 margin-top: 40vh;
                                 background-color: white;
                                 width: 60vw;
@@ -1712,19 +1865,28 @@ footer{
                                         height: 30px;
                                     }
                                     .circle2{
-                                        margin-left: -1.8vh;
+                                        margin-left: -2vh;
                                     }
 
                                     .circle3{
-                                        margin-left: -1.8vh;
+                                        margin-left: -2vh;
                                     }
 
                                     .circle3{
-                                        margin-left: -1.8vh;
+                                        margin-left: -2vh;
                                     }
                                 }
                                 .rating{
                                     margin-left: 0;
+                                }
+                            }
+                        }
+
+                        .lowerBox{
+                            margin-left: 0;
+                            div{
+                                h2,h4{
+                                    margin-left: -50vw
                                 }
                             }
                         }

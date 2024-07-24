@@ -140,16 +140,43 @@ section .firstPage .leftSection #leftSectionContentPage1 .JoinMeBox #signUpBtn {
   border: 1px solid #FF5524;
   border-radius: 5px;
 }
+section .firstPage .leftSection #leftSectionContentPage1 .JoinMeBox #signUpBtn:hover {
+  max-width: 100%;
+  max-height: 100%;
+  box-shadow: 5px 5px 3px white;
+  cursor: pointer;
+}
 section .firstPage .leftSection #leftSectionContentPage1 .JoinMeBox #learnMoreBtn {
   background-color: transparent;
   border: 2px solid white;
   border-radius: 5px;
+}
+section .firstPage .leftSection #leftSectionContentPage1 .JoinMeBox #learnMoreBtn:hover {
+  max-width: 100%;
+  max-height: 100%;
+  box-shadow: 5px 5px 3px white;
+  cursor: pointer;
 }
 section .firstPage .rightSection {
   width: 72vw;
   height: 100%;
   background-color: #7b7b7b;
   z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .firstPage .rightSection #blankBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+section .firstPage .rightSection #blankBox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 section .secondPage {
   width: 100vw;
@@ -234,6 +261,14 @@ section .secondPage .contentContainer .flex_Container .middleBox .imageWithRatin
   height: 95%;
   background-color: #7b7b7b;
   border-radius: 5px;
+  background-image: url("/Images/966bd1d1-7cb5-4507-ae54-ddcad231b9bf.jfif");
+  background-size: cover;
+}
+section .secondPage .contentContainer .flex_Container .middleBox .imageWithRatingBox:hover {
+  max-width: 100%;
+  max-height: 100%;
+  box-shadow: 5px 5px 3px white;
+  cursor: pointer;
 }
 section .secondPage .contentContainer .flex_Container .middleBox .imageWithRatingBox .ratingBox {
   display: flex;
@@ -262,6 +297,14 @@ section .secondPage .contentContainer .flex_Container .rightBox .upperBox {
   height: 60%;
   background-color: #7b7b7b;
   border-radius: 5px;
+  background-image: url("/Images/Choosing a Fusible.jfif");
+  background-size: cover;
+}
+section .secondPage .contentContainer .flex_Container .rightBox .upperBox:hover {
+  max-width: 100%;
+  max-height: 100%;
+  box-shadow: 5px 5px 3px white;
+  cursor: pointer;
 }
 section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox {
   color: #FF5524;
@@ -299,18 +342,34 @@ section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratin
 section .secondPage .contentContainer .flex_Container .rightBox .lowerBox {
   width: 100%;
   height: 38%;
-  background-color: #FF5524;
+  background-color: #ffffff;
   border-radius: 5px;
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+section .secondPage .contentContainer .flex_Container .rightBox .lowerBox img {
+  width: 98%;
+  height: 98%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+section .secondPage .contentContainer .flex_Container .rightBox .lowerBox img:hover {
+  max-width: 100%;
+  max-height: 100%;
+  box-shadow: 5px 5px 3px white;
+  cursor: pointer;
+}
 section .secondPage .contentContainer .flex_Container .rightBox .lowerBox div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+section .secondPage .contentContainer .flex_Container .rightBox .lowerBox div h2, section .secondPage .contentContainer .flex_Container .rightBox .lowerBox div h4 {
+  margin-left: -15vw;
+  text-align: center;
 }
 section .servicesSection {
   width: 100vw;
@@ -802,6 +861,9 @@ footer .contentArea .copyRightBox {
   #navDesktopView, #contactMediaLinks, #custScrollArrows, #custScrollDots, #DesktopCustHeadingOrangePart, #priceSectionHeadingParaDesktop, #serviceSectionHeadingOrangeDesktop, #explainationTextSecondPageDesktop, #page2SeeMoreBtnDesktop, #page2MiddleBoxDesktop {
     display: none;
   }
+  #blankBox img {
+    display: none;
+  }
   nav .navBarMobile {
     background-color: #000000;
     display: flex;
@@ -839,6 +901,8 @@ footer .contentArea .copyRightBox {
   }
   section .firstPage .leftSection {
     background-color: #7b7b7b;
+    background-image: url("/Images/macho_Mobile.jpg");
+    background-size: cover;
     display: flex;
     justify-content: end;
     flex-direction: column;
@@ -985,7 +1049,7 @@ footer .contentArea .copyRightBox {
     width: 80%;
   }
   section .secondPage .contentContainer .flex_Container #btn_ExplainText_Mobile {
-    margin-top: 10px;
+    margin-top: 0.5in;
     width: 100%;
   }
   section .secondPage .contentContainer .flex_Container #btn_ExplainText_Mobile div {
@@ -1272,7 +1336,7 @@ footer .contentArea .copyRightBox {
 @media (max-width: 1440px) {
   section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox {
     margin-left: 5vw;
-    width: 25vw;
+    width: 23vw;
     padding: 10px;
   }
   section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .circleImage img {
@@ -1286,7 +1350,7 @@ footer .contentArea .copyRightBox {
 @media (max-width: 1085px) {
   section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox {
     margin-left: 5vw;
-    width: 25vw;
+    width: 23vw;
     padding: 5px;
     display: flex;
     justify-content: space-between;
@@ -1308,9 +1372,44 @@ footer .contentArea .copyRightBox {
     margin-left: 0;
   }
 }
+@media (max-width: 1024px) {
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox {
+    margin-left: 5vw;
+    width: 24vw;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .circleImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .circleImage img {
+    width: 28px;
+    height: 28px;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .circleImage .circle2 {
+    margin-left: -1.8vh;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .circleImage .circle3 {
+    margin-left: -1.8vh;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .circleImage .circle3 {
+    margin-left: -1.8vh;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .rating {
+    margin-left: 0;
+  }
+}
 @media (max-width: 900px) {
   section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox {
     margin-left: 5vw;
+    margin-top: 15vh;
     width: 20vw;
     padding: 5px;
     display: flex;
@@ -1336,14 +1435,16 @@ footer .contentArea .copyRightBox {
   }
   section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .rating {
     margin-left: 0;
+    justify-content: center;
+    align-items: center;
   }
 }
 @media (max-width: 768px) {
   section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox {
     margin-left: 35vw;
-    margin-top: 40vh;
+    margin-top: 25vh;
     background-color: white;
-    width: 35vw;
+    width: 40vw;
     padding: 5px;
     display: flex;
     justify-content: space-between;
@@ -1367,6 +1468,14 @@ footer .contentArea .copyRightBox {
   }
   section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .rating {
     margin-left: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .lowerBox {
+    margin-left: 0;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .lowerBox div h2, section .secondPage .contentContainer .flex_Container .rightBox .lowerBox div h4 {
+    margin-left: -50vw;
   }
 }
 @media (max-width: 425px) {
@@ -1399,11 +1508,19 @@ footer .contentArea .copyRightBox {
   }
   section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .rating {
     margin-left: 0;
+    justify-content: center;
+    align-items: start;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .lowerBox {
+    margin-left: 0;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .lowerBox div h2, section .secondPage .contentContainer .flex_Container .rightBox .lowerBox div h4 {
+    margin-left: -50vw;
   }
 }
 @media (max-width: 320px) {
   section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox {
-    margin-left: 18vw;
+    margin-left: 16vw;
     margin-top: 40vh;
     background-color: white;
     width: 60vw;
@@ -1421,16 +1538,22 @@ footer .contentArea .copyRightBox {
     height: 30px;
   }
   section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .circleImage .circle2 {
-    margin-left: -1.8vh;
+    margin-left: -2vh;
   }
   section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .circleImage .circle3 {
-    margin-left: -1.8vh;
+    margin-left: -2vh;
   }
   section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .circleImage .circle3 {
-    margin-left: -1.8vh;
+    margin-left: -2vh;
   }
   section .secondPage .contentContainer .flex_Container .rightBox .upperBox .ratingBox .rating {
     margin-left: 0;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .lowerBox {
+    margin-left: 0;
+  }
+  section .secondPage .contentContainer .flex_Container .rightBox .lowerBox div h2, section .secondPage .contentContainer .flex_Container .rightBox .lowerBox div h4 {
+    margin-left: -50vw;
   }
 }
 
